@@ -1,0 +1,227 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    animation: apparition 1.3s ease-out;
+}
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.header{
+    width: 50%;
+    margin: auto
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.location{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 700;
+    height: 110px;
+    padding-top: 30px;
+    background: darkgrey;
+}
+.fa-map-marker-alt{
+    margin-right: 30px;
+}
+.reservation{
+    text-align: center;
+    background: whitesmoke;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.reservation h1{
+    font-size: 60px;
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reservation p{
+    color: grey;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+.boutton{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 40px 50px;
+    right: 26%;
+    color: white;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border: none;
+    margin: 50px auto;
+    display: block;
+    border-radius: 70px;
+}
+.titrefonctionnement{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.fonctionnement{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fonctionnement p:hover{
+    background-color: #f5edff;
+}
+.fonctionnement p:hover i{
+    color: #9356DC;
+}
+.fonctionnement i{
+    margin-right: 40px;
+    color: grey;   
+}
+.nouveau{
+    position: absolute;
+    color: #008766;
+    background: #99e2d0;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    right: 20px;
+    top: 20px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+figure {
+    width: 90%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px lightgrey;
+}
+figure .plat {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    min-height: 80%;
+    transform: translate(-50%, -50%);
+}
+main{
+    background: whitesmoke;
+    padding: 20px;
+}
+.bottom{
+    position: relative;
+    background: white;
+    height: 170px;
+    transform: translateY(-50px);
+    margin: 0px 50px 0px 39px;
+    padding: 10px 40px;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 10px 10px 15px lightgrey;
+}
+.bottom h1{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.bottom p{
+    margin-top: 10px;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.far{
+    position: absolute;
+    top: 70px;
+    font-size: 60px;
+    right: 70px;
+}
+.far:hover{
+    transition: 1.2s;
+    font-weight: bold;
+    color: #9356DC;
+    
+}
+.titremain{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.fonctionnement{
+    padding: 10px 130px;
+    margin-bottom: 80px;
+}
+.fonctionnement p{
+    background: whitesmoke;
+    border-radius: 50px;
+    justify-content: center;
+    font-size: 40px;
+    display: flex;
+    font-weight: 600;
+    padding: 30px 50px;
+    box-shadow: 10px 10px 15px lightgrey;
+}
+footer{
+    background: #353535;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+.titrefooter{
+    font-family: 'Shrikhand', cursive;
+    font-size: 50px;
+    margin-left: 30px;
+    color: white;  
+    font-weight: 100;     
+}
+.li{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    list-style-type: none;
+    margin: 20px 0;
+}
+li .fas{
+    margin-right: 20px;
+}
+
+/*@media (min-width: 950px) {
+    header{
+        margin: auto;
+        width: 40%;
+        padding: 20px;
+    }
+    body{
+        width: 70%;
+        margin: auto;
+    }
+    .location{
+        border-radius: 50px 50px 0 0;
+    }
+    .reservation{
+        border-radius: 0 0 50px 50px;
+    }
+    .reservation h1{
+        width: 100%;
+    }
+    main{
+        border-radius: 50px;
+        height: 3200px;
+    }
+    figure{
+        width: 93%;
+    }
+    footer{
+        transform: translateY(-160px);
+        border-radius: 0 0 50px 50px;
+    }
+
+
+
+
+
+
+}/*
